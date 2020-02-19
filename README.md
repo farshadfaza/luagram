@@ -44,7 +44,7 @@ app.vardump(result)
 
 
 ## The Functions - version 1.0 Beta
-- help(function_name or '*')
+- ```help(function_name or '*')```
 - downloadFile(file_id, priority)
 - readAllChatMentions(chat_id)
 - upgradeBasicGroupChatToSupergroupChat(chat_id)
