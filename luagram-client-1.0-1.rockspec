@@ -2,7 +2,7 @@ package = "luagram-client"
 version = "1.0-1"
 source = {
    url = "git://github.com/luagram/luagram.git",
-   tag = 'v1.0-1
+   tag = "v1.0-1",
    branch = "master"
 }
 description = {
