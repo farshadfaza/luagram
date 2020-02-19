@@ -102,8 +102,8 @@ app.vardump(result)
 - exists(file_path)
 - ```setPinnedChats(chat_ids)```
 - getCallbackQueryAnswer(chat_id, message_id, payload, data, game_short_name)
-- ```createCall(user_id, udp_p2p, udp_reflector, min_layer, max_layer)
-- getGroupsInCommon(user_id, offset_chat_id, limit)```
+- ```createCall(user_id, udp_p2p, udp_reflector, min_layer, max_layer)```
+- getGroupsInCommon(user_id, offset_chat_id, limit)
 - ```getBasicGroupFullInfo(basic_group_id)```
 - searchPublicChats(query)
 - ```sendChatSetTtlMessage(chat_id, ttl)```
@@ -134,7 +134,7 @@ app.vardump(result)
 - sendAudio(chat_id, reply_to_message_id, audio, caption, parse_mode, duration, title, performer, thumbnail, thumb_width, thumb_height, disable_notification, from_background, reply_markup)
 - ```sendAnimation(chat_id, reply_to_message_id, animation, caption, parse_mode, duration, width, height, thumbnail, thumb_width, thumb_height, disable_notification, from_background, reply_markup)```
 - sendText(chat_id, reply_to_message_id, text, parse_mode, disable_web_page_preview, clear_draft, disable_notification, from_background, reply_markup)
-- ```getTermsOfService()``````
+- ```getTermsOfService()```
 - getInviteText()
 - ```setAccountTtl(ttl)```
 - cancelUploadFile(file_id)
