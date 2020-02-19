@@ -5,10 +5,15 @@
 
 # installing
 sudo apt install git redis-server lua5.3 liblua5.3-dev lua-lgi libnotify-dev unzip tmux -y 
+
 sudo apt install libconfig++9v5 libstdc++6
+
 sudo apt autoremove
-sudo apt install gcc.
+
+sudo apt install gcc
+
 sudo apt --yes install wget libconfig9 libjansson4 liblua5.3 make unzip g++ whois fortune fortunes
+
 sudo apt install libreadline-dev -y libconfig-dev - y libssl-dev -y lua5.3 -y liblua5.3-dev -y libevent-dev -y make unzip git redis-server autoconf g++ -y libjansson-dev -y libpython-dev -y expat libexpat1-dev -y
 
 luarocks install luagram-client
