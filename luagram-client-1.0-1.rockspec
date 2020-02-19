@@ -9,7 +9,7 @@ description = {
    summary = "telegram cli client",
    homepage = "https://github.com/luagram/luagram.git",
 
-   license = "kon nane harki copyright dor bzane"
+   license = "MLXuB"
 }
 dependencies = {
   "lua >= 5.3"
