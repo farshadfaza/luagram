@@ -5,7 +5,7 @@
 
 # installing
 
-luarocks install luagram-clinet
+luarocks install luagram-client
 
 ## Using : 
 - Import `luagram-client` into the bot.
