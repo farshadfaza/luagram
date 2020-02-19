@@ -8,8 +8,6 @@ sudo apt install git redis-server lua5.3 liblua5.3-dev lua-lgi libnotify-dev unz
 
 sudo apt install libconfig++9v5 libstdc++6
 
-sudo apt autoremove
-
 sudo apt install gcc
 
 sudo apt --yes install wget libconfig9 libjansson4 liblua5.3 make unzip g++ whois fortune fortunes
