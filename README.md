@@ -46,205 +46,205 @@ app.vardump(result)
 ## The Functions - version 1.0 Beta
 - ```help(function_name or '*')```
 - downloadFile(file_id, priority)
-- readAllChatMentions(chat_id)
+- ```readAllChatMentions(chat_id)```
 - upgradeBasicGroupChatToSupergroupChat(chat_id)
-- joinChatByInviteLink(invite_link)
+- ```joinChatByInviteLink(invite_link)```
 - getRecoveryEmailAddress(password)
-- openChat(chat_id)
+- ```openChat(chat_id)```
 - uploadFile(file, file_type, priority)
-- getFileExtension(mime_type)
+- ```getFileExtension(mime_type)```
 - setChatDraftMessage(chat_id, reply_to_message_id, text, parse_mode, disable_web_page_preview, clear_draft)
-- getChatEventLog(chat_id, query, from_event_id, limit, filters, user_ids)
+- ```getChatEventLog(chat_id, query, from_event_id, limit, filters, user_ids)```
 - add_events(def)
-- removeFavoriteSticker(sticker)
+- ```removeFavoriteSticker(sticker)```
 - setRecoveryEmailAddress(password, new_recovery_email_address)
-- unblockUser(user_id)
+- ```unblockUser(user_id)```
 - addRecentSticker(is_attached, sticker)
-- getSavedOrderInfo()
+- ```getSavedOrderInfo()```
 - getChatHistory(chat_id, from_message_id, offset, limit, only_local)
-- removeTopChat(category, chat_id)
+- ```removeTopChat(category, chat_id)```
 - getSupergroupFullInfo(supergroup_id)
-- setSupergroupDescription(supergroup_id, description)
+- ```setSupergroupDescription(supergroup_id, description)```
 - searchMessages(query, offset_date, offset_chat_id, offset_message_id, limit)
-- checkChatUsername(chat_id, username)
+- ```checkChatUsername(chat_id, username)```
 - createNewSecretChat(user_id)
-- sendVideoNote(chat_id, reply_to_message_id, video_note, duration, length, thumbnail, thumb_width, thumb_height, disable_notification, from_background, reply_markup)
+- ```sendVideoNote(chat_id, reply_to_message_id, video_note, duration, length, thumbnail, thumb_width, thumb_height, disable_notification, from_background, reply_markup)```
 - searchContacts(query, limit)
-- createTemporaryPassword(password, valid_for)
+- ```createTemporaryPassword(password, valid_for)```
 - getTemporaryPasswordState()
-- getFileMimeType(file_name)
+- ```getFileMimeType(file_name)```
 - deleteProfilePhoto(profile_photo_id)
-- searchStickerSets(query)
+- ```searchStickerSets(query)```
 - createSupergroupChat(supergroup_id, force)
-- createPrivateChat(user_id, force)
+- ```createPrivateChat(user_id, force)```
 - getSupergroupMembers(supergroup_id, filter, query, offset, limit)
-- setSupergroupStickerSet(supergroup_id, sticker_set_id)
+- ```setSupergroupStickerSet(supergroup_id, sticker_set_id)```
 - reorderInstalledStickerSets(is_masks, sticker_set_ids)
-- sendPhoto(chat_id, reply_to_message_id, photo, caption, parse_mode, added_sticker_file_ids, width, height, ttl, thumbnail, thumb_width, thumb_height, disable_notification, from_background, reply_markup)
+- ```sendPhoto(chat_id, reply_to_message_id, photo, caption, parse_mode, added_sticker_file_ids, width, height, ttl, thumbnail, thumb_width, thumb_height, disable_notification, from_background, reply_markup)```
 - getRecentStickers(is_attached)
-- getChatMember(chat_id, user_id)
+- ```getChatMember(chat_id, user_id)```
 - deleteSavedOrderInfo()
-- closeChat(chat_id)
+- ```closeChat(chat_id)```
 - getRepliedMessage(chat_id, message_id)
-- reportSupergroupSpam(supergroup_id, user_id, message_ids)
+- ```reportSupergroupSpam(supergroup_id, user_id, message_ids)```
 - terminateSession(session_id)
-- getChatReportSpamState(chat_id)
+- ```getChatReportSpamState(chat_id)```
 - getPasswordState()
-- getWebPagePreview(text)
+- ```getWebPagePreview(text)```
 - addRecentlyFoundChat(chat_id)
-- cancel_timer(timer_id)
+- ```cancel_timer(timer_id)getMe()```
 - getBasicGroup(basic_group_id)
-- getCreatedPublicChats()
+- ```getCreatedPublicChats()```
 - searchInstalledStickerSets(is_masks, query, limit)
-- createNewSupergroupChat(title, is_channel, description)
+- ```createNewSupergroupChat(title, is_channel, description)```
 - setChatClientData(chat_id, client_data)
-- removeSavedAnimation(animation)
-- exists(file)
-- setPinnedChats(chat_ids)
+- ```removeSavedAnimation(animation)```
+- exists(file_path)
+- ```setPinnedChats(chat_ids)```
 - getCallbackQueryAnswer(chat_id, message_id, payload, data, game_short_name)
-- createCall(user_id, udp_p2p, udp_reflector, min_layer, max_layer)
-- getGroupsInCommon(user_id, offset_chat_id, limit)
-- getBasicGroupFullInfo(basic_group_id)
+- ```createCall(user_id, udp_p2p, udp_reflector, min_layer, max_layer)
+- getGroupsInCommon(user_id, offset_chat_id, limit)```
+- ```getBasicGroupFullInfo(basic_group_id)```
 - searchPublicChats(query)
-- sendChatSetTtlMessage(chat_id, ttl)
+- ```sendChatSetTtlMessage(chat_id, ttl)```
 - searchChatMembers(chat_id, query, limit)
-- logOut()
+- ```logOut()```
 - getPublicMessageLink(chat_id, message_id, for_album)
-- unpinSupergroupMessage(supergroup_id)
+- ```unpinSupergroupMessage(supergroup_id)```
 - resetNetworkStatistics()
-- sendInvoice(chat_id, reply_to_message_id, invoice, title, description, photo_url, photo_size, photo_width, photo_height, payload, provider_token, provider_data, start_parameter, disable_notification, from_background, reply_markup)
+- ```sendInvoice(chat_id, reply_to_message_id, invoice, title, description, photo_url, photo_size, photo_width, photo_height, payload, provider_token, provider_data, start_parameter, disable_notification, from_background, reply_markup)```
 - sendContact(chat_id, reply_to_message_id, phone_number, first_name, last_name, user_id, disable_notification, from_background, reply_markup)
-- optimizeStorage(size, ttl, count, immunity_delay, file_type, chat_ids, exclude_chat_ids, chat_limit)
+- ```optimizeStorage(size, ttl, count, immunity_delay, file_type, chat_ids, exclude_chat_ids, chat_limit)```
 - getChatPinnedMessage(chat_id)
-- sendVideo(chat_id, reply_to_message_id, video, caption, parse_mode, added_sticker_file_ids, duration, width, height, ttl, thumbnail, thumb_width, thumb_height, disable_notification, from_background, reply_markup)
+- ```sendVideo(chat_id, reply_to_message_id, video, caption, parse_mode, added_sticker_file_ids, duration, width, height, ttl, thumbnail, thumb_width, thumb_height, disable_notification, from_background, reply_markup)```
 - editMessageText(chat_id, message_id, text, parse_mode, disable_web_page_preview, clear_draft, reply_markup)
-- vardump(input)
+- ```vardump(input)```
 - terminateAllOtherSessions()
-- addNetworkStatistics(entry, file_type, network_type, sent_bytes, received_bytes, duration)
+- ```addNetworkStatistics(entry, file_type, network_type, sent_bytes, received_bytes, duration)```
 - setNotificationSettings(scope, chat_id, mute_for, sound, show_preview)
-- searchChatsOnServer(query, limit)
+- ```searchChatsOnServer(query, limit)```
 - sendLocation(chat_id, reply_to_message_id, latitude, longitude, disable_notification, from_background, reply_markup)
-- deleteChatMessagesFromUser(chat_id, user_id)
+- ```deleteChatMessagesFromUser(chat_id, user_id)```
 - sendChatScreenshotTakenNotification(chat_id)
-- reportChat(chat_id, reason, text, message_ids)
+- ```reportChat(chat_id, reason, text, message_ids)```
 - getRemoteFile(remote_file_id, file_type)
-- createSecretChat(secret_chat_id)
+- ```createSecretChat(secret_chat_id)```
 - sendSticker(chat_id, reply_to_message_id, sticker, width, height, disable_notification, thumbnail, thumb_width, thumb_height, from_background, reply_markup)
-- sendDocument(chat_id, reply_to_message_id, document, caption, parse_mode, thumbnail, thumb_width, thumb_height, disable_notification, from_background, reply_markup)
+- ```sendDocument(chat_id, reply_to_message_id, document, caption, parse_mode, thumbnail, thumb_width, thumb_height, disable_notification, from_background, reply_markup)```
 - sendAudio(chat_id, reply_to_message_id, audio, caption, parse_mode, duration, title, performer, thumbnail, thumb_width, thumb_height, disable_notification, from_background, reply_markup)
-- sendAnimation(chat_id, reply_to_message_id, animation, caption, parse_mode, duration, width, height, thumbnail, thumb_width, thumb_height, disable_notification, from_background, reply_markup)
+- ```sendAnimation(chat_id, reply_to_message_id, animation, caption, parse_mode, duration, width, height, thumbnail, thumb_width, thumb_height, disable_notification, from_background, reply_markup)```
 - sendText(chat_id, reply_to_message_id, text, parse_mode, disable_web_page_preview, clear_draft, disable_notification, from_background, reply_markup)
-- getTermsOfService()
+- ```getTermsOfService()``````
 - getInviteText()
-- setAccountTtl(ttl)
+- ```setAccountTtl(ttl)```
 - cancelUploadFile(file_id)
-- deleteChatReplyMarkup(chat_id, message_id)
+- ```deleteChatReplyMarkup(chat_id, message_id)```
 - toggleChatIsPinned(chat_id, is_pinned)
-- sendInlineQueryResultMessage(chat_id, reply_to_message_id, disable_notification, from_background, query_id, result_id)
+- ```sendInlineQueryResultMessage(chat_id, reply_to_message_id, disable_notification, from_background, query_id, result_id)```
 - createBasicGroupChat(basic_group_id, force)
-- getFile(file_id)
+- ```getFile(file_id)```
 - deleteMessages(chat_id, message_ids, revoke)
-- sendVoiceNote(chat_id, reply_to_message_id, voice_note, caption, parse_mode, duration, waveform, disable_notification, from_background, reply_markup)
+- ```sendVoiceNote(chat_id, reply_to_message_id, voice_note, caption, parse_mode, duration, waveform, disable_notification, from_background, reply_markup)```
 - getSecretChat(secret_chat_id)
-- getChatMessageByDate(chat_id, date)
+- ```getChatMessageByDate(chat_id, date)```
 - resetAllNotificationSettings()
-- getSupportUser()
+- ```getSupportUser()```
 - setNetworkType(type)
-- clearImportedContacts()
+- ```clearImportedContacts()```
 - setUsername(username)
-- viewMessages(chat_id, message_ids, force_read)
+- ```viewMessages(chat_id, message_ids, force_read)```
 - getInlineQueryResults(bot_user_id, chat_id, latitude, longitude, query, offset)
-- sendVenue(chat_id, reply_to_message_id, latitude, longitude, title, address, provider, id, disable_notification, from_background, reply_markup)
+- ```sendVenue(chat_id, reply_to_message_id, latitude, longitude, title, address, provider, id, disable_notification, from_background, reply_markup)```
 - getStorageStatisticsFast()
-- setUserPrivacySettingRules(setting, rules, allowed_user_ids, restricted_user_ids)
+- ```setUserPrivacySettingRules(setting, rules, allowed_user_ids, restricted_user_ids)```
 - searchSecretMessages(chat_id, query, from_search_id, limit, filter)
-- getStorageStatistics(chat_limit)
+- ```getStorageStatistics(chat_limit)```
 - searchChats(query, limit)
-- getArchivedStickerSets(is_masks, offset_sticker_set_id, limit)
+- ```getArchivedStickerSets(is_masks, offset_sticker_set_id, limit)```
 - getAccountTtl()
-- getCountryCode()
+- ```getCountryCode()```
 - getUser(user_id)
-- setOption(name, option_value, value)
+- ```setOption(name, option_value, value)```
 - getOption(name)
-- toggleSupergroupIsAllHistoryAvailable(supergroup_id, is_all_history_available)
+- ```toggleSupergroupIsAllHistoryAvailable(supergroup_id, is_all_history_available)```
 - getUserPrivacySettingRules(setting)
-- importContacts(phone_number, first_name, last_name, user_id)
+- ```importContacts(phone_number, first_name, last_name, user_id)```
 - getWallpapers()
-- getTrendingStickerSets()
+- ```getTrendingStickerSets()```
 - getNetworkStatistics(only_current)
-- deleteSavedCredentials()
+- ```deleteSavedCredentials()```
 - closeSecretChat(secret_chat_id)
-- deleteSupergroup(supergroup_id)
+- ```deleteSupergroup(supergroup_id)```
 - sendForwarded(chat_id, reply_to_message_id, from_chat_id, message_id, in_game_share, disable_notification, from_background, reply_markup)
-- getChatAdministrators(chat_id)
+- ```getChatAdministrators(chat_id)```
 - getSavedAnimations()
-- pinSupergroupMessage(supergroup_id, message_id, disable_notification)
+- ```pinSupergroupMessage(supergroup_id, message_id, disable_notification)```
 - getChats(offset_chat_id, limit, offset_order)
-- searchStickerSet(name)
+- ```searchStickerSet(name)```
 - setPassword(old_password, new_password, new_hint, set_recovery_email_address, new_recovery_email_address)
-- toggleSupergroupInvites(supergroup_id, anyone_can_invite)
+- ```toggleSupergroupInvites(supergroup_id, anyone_can_invite)```
 - setSupergroupUsername(supergroup_id, username)
-- deleteChatHistory(chat_id, remove_from_chat_list)
+- ```deleteChatHistory(chat_id, remove_from_chat_list)```
 - toggleBasicGroupAdministrators(basic_group_id, everyone_is_administrator)
-- getActiveSessions(callback, data)
+- ```getActiveSessions()```
 - setBio(bio)
-- setName(first_name, last_name)
+- ```setName(first_name, last_name)```
 - set_timer(seconds, def, argv)
-- setProfilePhoto(photo)
+- ```get_timer(timer_id)```
+- cancel_timer(timer_id)
+- ```setProfilePhoto(photo)```
 - removeRecentlyFoundChat(chat_id)
-- sendMessageAlbum(chat_id, reply_to_message_id, input_message_contents, disable_notification, from_background)
+- ```sendMessageAlbum(chat_id, reply_to_message_id, input_message_contents, disable_notification, from_background)```
 - searchPublicChat(username)
-- recoverPassword(recovery_code)
+- ```recoverPassword(recovery_code)```
 - clearRecentStickers(is_attached)
-- setChatMemberStatus(chat_id, user_id, status, right)
+- ```setChatMemberStatus(chat_id, user_id, status, right)```
 - getWebPageInstantView(url, force_full)
-- removeRecentHashtag(hashtag)
+- ```removeRecentHashtag(hashtag)```
 - searchHashtags(prefix, limit)
-- getTextEntities(text)
-- get_timer(timer_id)
+- ```getTextEntities(text)```
 - addSavedAnimation(animation)
-- getStickerEmojis(sticker)
+- ```getStickerEmojis(sticker)```
 - getSupergroup(supergroup_id)
-- searchStickers(emoji, limit)
+- ```searchStickers(emoji, limit)```
 - getFavoriteStickers()
-- blockUser(user_id)
+- ```blockUser(user_id)```
 - viewTrendingStickerSets(sticker_set_ids)
-- changeStickerSet(set_id, is_installed, is_archived)
+- ```changeStickerSet(set_id, is_installed, is_archived)```
 - createNewBasicGroupChat(user_ids, title)
-- requestPasswordRecovery()
+- ```requestPasswordRecovery()```
 - setChatPhoto(chat_id, photo)
-- getChat(chat_id)
+- ```getChat(chat_id)```
 - toggleSupergroupSignMessages(supergroup_id, sign_messages)
-- getStickerSet(set_id)
+- ```getStickerSet(set_id)```
 - forwardMessages(chat_id, from_chat_id, message_ids, disable_notification, from_background, as_album)
-- getAttachedStickerSets(file_id)
+- ```getAttachedStickerSets(file_id)```
 - deleteAccount(reason)
-- getImportedContactCount()
+- ```getImportedContactCount()```
 - searchCallMessages(from_message_id, limit, only_missed)
-- addFavoriteSticker(sticker)
+- ```addFavoriteSticker(sticker)```
 - getStickers(emoji, limit)
-- getUserProfilePhotos(user_id, offset, limit)
+- ```getUserProfilePhotos(user_id, offset, limit)```
 - changeImportedContacts(phone_number, first_name, last_name, user_id)
-- getUserFullInfo(user_id)
+- ```getUserFullInfo(user_id)```
 - clearRecentlyFoundChats()
-- setChatTitle(chat_id, title)
+- ```setChatTitle(chat_id, title)```
 - removeContacts(user_ids)
-- sendChatAction(chat_id, action, progress)
+- ```sendChatAction(chat_id, action, progress)```
 - getMessage(chat_id, message_id)
-- getBlockedUsers(offset, limit)
+- ```getBlockedUsers(offset, limit)```
 - generateChatInviteLink(chat_id)
-- checkChatInviteLink(invite_link)
+- ```checkChatInviteLink(invite_link)```
 - acceptCall(call_id, udp_p2p, udp_reflector, min_layer, max_layer)
-- deleteFile(file_id)
-- getMe()
+- ```deleteFile(file_id)```
 - getTopChats(category, limit)
-- cancelDownloadFile(file_id, only_if_pending)
+- ```cancelDownloadFile(file_id, only_if_pending)```
 - addChatMembers(chat_id, user_ids)
-- addChatMember(chat_id, user_id, forward_limit)
+- ```addChatMember(chat_id, user_id, forward_limit)```
 - openMessageContent(chat_id, message_id)
-- getRecentInlineBots()
+- ```getRecentInlineBots()```
 - editMessageCaption(chat_id, message_id, caption, parse_mode, reply_markup)
-- sendBotStartMessage(bot_user_id, chat_id, parameter)
+- ```sendBotStartMessage(bot_user_id, chat_id, parameter)```
 - getNotificationSettings(scope, chat_id)
-- searchChatMessages(chat_id, query, filter, sender_user_id, from_message_id, offset, limit)
+- ```searchChatMessages(chat_id, query, filter, sender_user_id, from_message_id, offset, limit)```
 - getMessages(chat_id, message_ids)
