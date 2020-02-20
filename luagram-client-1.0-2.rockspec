@@ -1,3 +1,6 @@
+
+
+--new
 package = "luagram-client"
 version = "1.0-1"
 source = {
@@ -20,3 +23,6 @@ build = {
      ["luagram-client"] = "luagram-client.lua"
    }
 }
+
+
+
